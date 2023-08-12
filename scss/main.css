@@ -518,6 +518,10 @@ a {
     width: 380px;
     height: 460px;
   }
+  .main__reyting b {
+    font-size: 12px;
+    padding: 2px 4px;
+  }
 }
 @media (max-width: 440px) {
   .main__img {
