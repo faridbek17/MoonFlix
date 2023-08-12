@@ -1,0 +1,68 @@
+.video {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 auto;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    
+    &__pleyr {
+        width: 900px;
+        height: 800px;
+        padding-top: 120px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        
+        video {
+            cursor: pointer;
+            background: none;
+        }
+    }
+
+    &-btnx {
+        position: absolute;
+        top: 760px;
+        left: 50%;
+        padding: 10px 20px;
+        font-size: 16px;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+
+
+// @Media - Start
+@media (max-width: 1220px){
+    .video__pleyr {
+        width: 600px;
+        height: 600px;
+    }
+  }
+
+  @media (max-width: 860px){
+    .video__pleyr {
+        height: 500px;
+    }
+  }
+
+  @media (max-width: 690px){
+    .video__pleyr {
+        width: 400px;
+        height: 400px;
+    }
+  }
+
+  @media (max-width: 500px){
+    .video__pleyr {
+        width: 300px;
+        height: 300px;
+    }
+  }
+// @Media - End
