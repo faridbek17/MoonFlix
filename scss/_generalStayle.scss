@@ -32,6 +32,16 @@ a {
   background-blend-mode: multiply;
   background-color: #999999;
   position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 300px;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(0,0,0,0.9) 50%, rgba(253,187,45,0) 100%);
+  }
 }
 
 .main {
