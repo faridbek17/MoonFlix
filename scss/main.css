@@ -194,8 +194,8 @@ a {
   transition: all 0.3s ease;
 }
 .video__pleyr {
-  width: 900px;
-  height: 800px;
+  width: 600px;
+  height: 600px;
   padding-top: 120px;
   margin: 0 auto;
   display: flex;
@@ -518,9 +518,22 @@ a {
     width: 380px;
     height: 460px;
   }
+  .main__video-btn {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
   .main__reyting b {
     font-size: 12px;
     padding: 2px 4px;
+  }
+  .main__persons-img2 {
+    margin-bottom: 20px;
+  }
+  .main__persons-img3 {
+    margin-bottom: 20px;
+  }
+  .main__persons-img4 {
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 440px) {
